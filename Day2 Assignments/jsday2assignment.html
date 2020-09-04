@@ -1,1 +1,35 @@
+<html>
+<head>
+<script type="text/javascript">
 
+//1.searching a particular character in string
+let str="javascript";
+console.log(str.indexOf('s'));
+
+//2.coverting minutes into seconds
+let n=9;
+console.log(n*60);
+
+//3.program to search for a element in a array of string 
+let data=["java","c++","python","c#",];
+console.log(data.indexOf("c++"));
+console.log(data.indexOf("c"));
+
+//4.program to display elements containing 'a' in them from a array
+let a_array=["apple","kiwi","orange","melon"];
+for (let i=0;i<a_array.length;i++)
+ {
+    if((a_array[i].search("a"))>-1)
+    {
+        console.log(a_array[i]);
+    }
+  
+ } 
+
+// 5.display the array in reverse form
+ console.log(data.reverse());
+ 
+
+</script>
+</head>
+</html>
